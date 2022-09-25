@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4F64CA028E0F28200AA8746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64C9F28E0F28200AA8746 /* AppDelegate.swift */; };
+		B4F64CA228E0F28200AA8746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CA128E0F28200AA8746 /* SceneDelegate.swift */; };
+		B4F64CA428E0F28200AA8746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CA328E0F28200AA8746 /* ViewController.swift */; };
+		B4F64CA728E0F28200AA8746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F64CA528E0F28200AA8746 /* Main.storyboard */; };
+		B4F64CAA28E0F28200AA8746 /* diploma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CA828E0F28200AA8746 /* diploma.xcdatamodeld */; };
+		B4F64CAC28E0F28700AA8746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F64CAB28E0F28700AA8746 /* Assets.xcassets */; };
+		B4F64CAF28E0F28700AA8746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F64CAD28E0F28700AA8746 /* LaunchScreen.storyboard */; };
+		B4F64CBA28E0F28800AA8746 /* diplomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CB928E0F28800AA8746 /* diplomaTests.swift */; };
+		B4F64CC428E0F28800AA8746 /* diplomaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CC328E0F28800AA8746 /* diplomaUITests.swift */; };
+		B4F64CC628E0F28800AA8746 /* diplomaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CC528E0F28800AA8746 /* diplomaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4F64CB628E0F28800AA8746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4F64C9428E0F28200AA8746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F64C9B28E0F28200AA8746;
+			remoteInfo = diploma;
+		};
+		B4F64CC028E0F28800AA8746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4F64C9428E0F28200AA8746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4F64C9B28E0F28200AA8746;
+			remoteInfo = diploma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4F64C9C28E0F28200AA8746 /* diploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F64C9F28E0F28200AA8746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B4F64CA128E0F28200AA8746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B4F64CA328E0F28200AA8746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B4F64CA628E0F28200AA8746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4F64CA928E0F28200AA8746 /* diploma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diploma.xcdatamodel; sourceTree = "<group>"; };
+		B4F64CAB28E0F28700AA8746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4F64CAE28E0F28700AA8746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4F64CB028E0F28700AA8746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4F64CB528E0F28800AA8746 /* diplomaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diplomaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F64CB928E0F28800AA8746 /* diplomaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diplomaTests.swift; sourceTree = "<group>"; };
+		B4F64CBF28E0F28800AA8746 /* diplomaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diplomaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F64CC328E0F28800AA8746 /* diplomaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diplomaUITests.swift; sourceTree = "<group>"; };
+		B4F64CC528E0F28800AA8746 /* diplomaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diplomaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4F64C9928E0F28200AA8746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64CB228E0F28800AA8746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64CBC28E0F28800AA8746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4F64C9328E0F28200AA8746 = {
+			isa = PBXGroup;
+			children = (
+				B4F64C9E28E0F28200AA8746 /* diploma */,
+				B4F64CB828E0F28800AA8746 /* diplomaTests */,
+				B4F64CC228E0F28800AA8746 /* diplomaUITests */,
+				B4F64C9D28E0F28200AA8746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4F64C9D28E0F28200AA8746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4F64C9C28E0F28200AA8746 /* diploma.app */,
+				B4F64CB528E0F28800AA8746 /* diplomaTests.xctest */,
+				B4F64CBF28E0F28800AA8746 /* diplomaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4F64C9E28E0F28200AA8746 /* diploma */ = {
+			isa = PBXGroup;
+			children = (
+				B4F64C9F28E0F28200AA8746 /* AppDelegate.swift */,
+				B4F64CA128E0F28200AA8746 /* SceneDelegate.swift */,
+				B4F64CA328E0F28200AA8746 /* ViewController.swift */,
+				B4F64CA528E0F28200AA8746 /* Main.storyboard */,
+				B4F64CAB28E0F28700AA8746 /* Assets.xcassets */,
+				B4F64CAD28E0F28700AA8746 /* LaunchScreen.storyboard */,
+				B4F64CB028E0F28700AA8746 /* Info.plist */,
+				B4F64CA828E0F28200AA8746 /* diploma.xcdatamodeld */,
+			);
+			path = diploma;
+			sourceTree = "<group>";
+		};
+		B4F64CB828E0F28800AA8746 /* diplomaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4F64CB928E0F28800AA8746 /* diplomaTests.swift */,
+			);
+			path = diplomaTests;
+			sourceTree = "<group>";
+		};
+		B4F64CC228E0F28800AA8746 /* diplomaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B4F64CC328E0F28800AA8746 /* diplomaUITests.swift */,
+				B4F64CC528E0F28800AA8746 /* diplomaUITestsLaunchTests.swift */,
+			);
+			path = diplomaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4F64C9B28E0F28200AA8746 /* diploma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F64CC928E0F28800AA8746 /* Build configuration list for PBXNativeTarget "diploma" */;
+			buildPhases = (
+				B4F64C9828E0F28200AA8746 /* Sources */,
+				B4F64C9928E0F28200AA8746 /* Frameworks */,
+				B4F64C9A28E0F28200AA8746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diploma;
+			productName = diploma;
+			productReference = B4F64C9C28E0F28200AA8746 /* diploma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4F64CB428E0F28800AA8746 /* diplomaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F64CCC28E0F28800AA8746 /* Build configuration list for PBXNativeTarget "diplomaTests" */;
+			buildPhases = (
+				B4F64CB128E0F28800AA8746 /* Sources */,
+				B4F64CB228E0F28800AA8746 /* Frameworks */,
+				B4F64CB328E0F28800AA8746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4F64CB728E0F28800AA8746 /* PBXTargetDependency */,
+			);
+			name = diplomaTests;
+			productName = diplomaTests;
+			productReference = B4F64CB528E0F28800AA8746 /* diplomaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B4F64CBE28E0F28800AA8746 /* diplomaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F64CCF28E0F28800AA8746 /* Build configuration list for PBXNativeTarget "diplomaUITests" */;
+			buildPhases = (
+				B4F64CBB28E0F28800AA8746 /* Sources */,
+				B4F64CBC28E0F28800AA8746 /* Frameworks */,
+				B4F64CBD28E0F28800AA8746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4F64CC128E0F28800AA8746 /* PBXTargetDependency */,
+			);
+			name = diplomaUITests;
+			productName = diplomaUITests;
+			productReference = B4F64CBF28E0F28800AA8746 /* diplomaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4F64C9428E0F28200AA8746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B4F64C9B28E0F28200AA8746 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B4F64CB428E0F28800AA8746 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B4F64C9B28E0F28200AA8746;
+					};
+					B4F64CBE28E0F28800AA8746 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B4F64C9B28E0F28200AA8746;
+					};
+				};
+			};
+			buildConfigurationList = B4F64C9728E0F28200AA8746 /* Build configuration list for PBXProject "diploma" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4F64C9328E0F28200AA8746;
+			productRefGroup = B4F64C9D28E0F28200AA8746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4F64C9B28E0F28200AA8746 /* diploma */,
+				B4F64CB428E0F28800AA8746 /* diplomaTests */,
+				B4F64CBE28E0F28800AA8746 /* diplomaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4F64C9A28E0F28200AA8746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F64CAF28E0F28700AA8746 /* LaunchScreen.storyboard in Resources */,
+				B4F64CAC28E0F28700AA8746 /* Assets.xcassets in Resources */,
+				B4F64CA728E0F28200AA8746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64CB328E0F28800AA8746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64CBD28E0F28800AA8746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4F64C9828E0F28200AA8746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F64CA428E0F28200AA8746 /* ViewController.swift in Sources */,
+				B4F64CA028E0F28200AA8746 /* AppDelegate.swift in Sources */,
+				B4F64CAA28E0F28200AA8746 /* diploma.xcdatamodeld in Sources */,
+				B4F64CA228E0F28200AA8746 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64CB128E0F28800AA8746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F64CBA28E0F28800AA8746 /* diplomaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4F64CBB28E0F28800AA8746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4F64CC428E0F28800AA8746 /* diplomaUITests.swift in Sources */,
+				B4F64CC628E0F28800AA8746 /* diplomaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4F64CB728E0F28800AA8746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4F64C9B28E0F28200AA8746 /* diploma */;
+			targetProxy = B4F64CB628E0F28800AA8746 /* PBXContainerItemProxy */;
+		};
+		B4F64CC128E0F28800AA8746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4F64C9B28E0F28200AA8746 /* diploma */;
+			targetProxy = B4F64CC028E0F28800AA8746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4F64CA528E0F28200AA8746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F64CA628E0F28200AA8746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B4F64CAD28E0F28700AA8746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4F64CAE28E0F28700AA8746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4F64CC728E0F28800AA8746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B4F64CC828E0F28800AA8746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4F64CCA28E0F28800AA8746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = diploma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-academy.diploma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B4F64CCB28E0F28800AA8746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = diploma/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-academy.diploma";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B4F64CCD28E0F28800AA8746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-academy.diplomaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diploma.app/diploma";
+			};
+			name = Debug;
+		};
+		B4F64CCE28E0F28800AA8746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-academy.diplomaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/diploma.app/diploma";
+			};
+			name = Release;
+		};
+		B4F64CD028E0F28800AA8746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-academy.diplomaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = diploma;
+			};
+			name = Debug;
+		};
+		B4F64CD128E0F28800AA8746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.it-academy.diplomaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = diploma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4F64C9728E0F28200AA8746 /* Build configuration list for PBXProject "diploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F64CC728E0F28800AA8746 /* Debug */,
+				B4F64CC828E0F28800AA8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F64CC928E0F28800AA8746 /* Build configuration list for PBXNativeTarget "diploma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F64CCA28E0F28800AA8746 /* Debug */,
+				B4F64CCB28E0F28800AA8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F64CCC28E0F28800AA8746 /* Build configuration list for PBXNativeTarget "diplomaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F64CCD28E0F28800AA8746 /* Debug */,
+				B4F64CCE28E0F28800AA8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4F64CCF28E0F28800AA8746 /* Build configuration list for PBXNativeTarget "diplomaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F64CD028E0F28800AA8746 /* Debug */,
+				B4F64CD128E0F28800AA8746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B4F64CA828E0F28200AA8746 /* diploma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B4F64CA928E0F28200AA8746 /* diploma.xcdatamodel */,
+			);
+			currentVersion = B4F64CA928E0F28200AA8746 /* diploma.xcdatamodel */;
+			path = diploma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B4F64C9428E0F28200AA8746 /* Project object */;
+}
