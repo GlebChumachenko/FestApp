@@ -7,11 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43097152900188200C60EFD /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43097142900188200C60EFD /* NotificationsViewController.swift */; };
+		B44CA6DE28E5D23D00B26C3D /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CA6DD28E5D23D00B26C3D /* HelloViewController.swift */; };
+		B44CA6E228E5E0D900B26C3D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CA6E128E5E0D900B26C3D /* TableViewController.swift */; };
+		B44CA6E428E5E0E500B26C3D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44CA6E328E5E0E500B26C3D /* MapViewController.swift */; };
+		B451A4122905E3CE0036744B /* string-to-json-online.json in Resources */ = {isa = PBXBuildFile; fileRef = B451A4112905E3CD0036744B /* string-to-json-online.json */; };
+		B451A4142905E4DF0036744B /* InfoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451A4132905E4DF0036744B /* InfoLoader.swift */; };
+		B451A4172906D2B20036744B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451A4162906D2B20036744B /* CoreDataManager.swift */; };
+		B451A41C2906D6F10036744B /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451A41B2906D6F10036744B /* CoreData.swift */; };
+		B451A41F2906D8F80036744B /* diploma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B451A41D2906D8F70036744B /* diploma.xcdatamodeld */; };
+		B451A42B29072F350036744B /* CustomSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B451A42A29072F350036744B /* CustomSegue.swift */; };
+		B4AE211728ECC0020053068E /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE211628ECC0020053068E /* DownloadViewController.swift */; };
+		B4AE211928ECC7DD0053068E /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AE211828ECC7DD0053068E /* InfoViewController.swift */; };
+		B4DDC39B28E5F17F008BEF5E /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DDC39928E5F17F008BEF5E /* CustomViewCell.swift */; };
+		B4DDC39C28E5F17F008BEF5E /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4DDC39A28E5F17F008BEF5E /* CustomViewCell.xib */; };
+		B4DDC39E28E6301F008BEF5E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DDC39D28E6301F008BEF5E /* Data.swift */; };
 		B4F64CA028E0F28200AA8746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64C9F28E0F28200AA8746 /* AppDelegate.swift */; };
 		B4F64CA228E0F28200AA8746 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CA128E0F28200AA8746 /* SceneDelegate.swift */; };
 		B4F64CA428E0F28200AA8746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CA328E0F28200AA8746 /* ViewController.swift */; };
 		B4F64CA728E0F28200AA8746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F64CA528E0F28200AA8746 /* Main.storyboard */; };
-		B4F64CAA28E0F28200AA8746 /* diploma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CA828E0F28200AA8746 /* diploma.xcdatamodeld */; };
 		B4F64CAC28E0F28700AA8746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F64CAB28E0F28700AA8746 /* Assets.xcassets */; };
 		B4F64CAF28E0F28700AA8746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F64CAD28E0F28700AA8746 /* LaunchScreen.storyboard */; };
 		B4F64CBA28E0F28800AA8746 /* diplomaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F64CB928E0F28800AA8746 /* diplomaTests.swift */; };
@@ -37,12 +51,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B43097142900188200C60EFD /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		B44CA6DD28E5D23D00B26C3D /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		B44CA6E128E5E0D900B26C3D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B44CA6E328E5E0E500B26C3D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		B451A4112905E3CD0036744B /* string-to-json-online.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "string-to-json-online.json"; sourceTree = "<group>"; };
+		B451A4132905E4DF0036744B /* InfoLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLoader.swift; sourceTree = "<group>"; };
+		B451A4162906D2B20036744B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B451A41B2906D6F10036744B /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B451A41E2906D8F70036744B /* diploma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diploma.xcdatamodel; sourceTree = "<group>"; };
+		B451A42A29072F350036744B /* CustomSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegue.swift; sourceTree = "<group>"; };
+		B4AE211628ECC0020053068E /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		B4AE211828ECC7DD0053068E /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		B4DDC39928E5F17F008BEF5E /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		B4DDC39A28E5F17F008BEF5E /* CustomViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
+		B4DDC39D28E6301F008BEF5E /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		B4F64C9C28E0F28200AA8746 /* diploma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diploma.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F64C9F28E0F28200AA8746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F64CA128E0F28200AA8746 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B4F64CA328E0F28200AA8746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4F64CA628E0F28200AA8746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4F64CA928E0F28200AA8746 /* diploma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = diploma.xcdatamodel; sourceTree = "<group>"; };
 		B4F64CAB28E0F28700AA8746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4F64CAE28E0F28700AA8746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4F64CB028E0F28700AA8746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +106,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B451A42529072E2A0036744B /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				B44CA6E128E5E0D900B26C3D /* TableViewController.swift */,
+				B4DDC39928E5F17F008BEF5E /* CustomViewCell.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		B451A42629072E400036744B /* Launch screen */ = {
+			isa = PBXGroup;
+			children = (
+				B4AE211628ECC0020053068E /* DownloadViewController.swift */,
+				B451A42A29072F350036744B /* CustomSegue.swift */,
+			);
+			path = "Launch screen";
+			sourceTree = "<group>";
+		};
+		B451A42729072E670036744B /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B451A4162906D2B20036744B /* CoreDataManager.swift */,
+				B451A41B2906D6F10036744B /* CoreData.swift */,
+				B4DDC39D28E6301F008BEF5E /* Data.swift */,
+				B451A4132905E4DF0036744B /* InfoLoader.swift */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		B451A42929072E950036744B /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				B44CA6DD28E5D23D00B26C3D /* HelloViewController.swift */,
+				B4F64CA328E0F28200AA8746 /* ViewController.swift */,
+				B44CA6E328E5E0E500B26C3D /* MapViewController.swift */,
+				B4AE211828ECC7DD0053068E /* InfoViewController.swift */,
+				B43097142900188200C60EFD /* NotificationsViewController.swift */,
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
 		B4F64C9328E0F28200AA8746 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +170,19 @@
 		B4F64C9E28E0F28200AA8746 /* diploma */ = {
 			isa = PBXGroup;
 			children = (
+				B451A4112905E3CD0036744B /* string-to-json-online.json */,
 				B4F64C9F28E0F28200AA8746 /* AppDelegate.swift */,
 				B4F64CA128E0F28200AA8746 /* SceneDelegate.swift */,
-				B4F64CA328E0F28200AA8746 /* ViewController.swift */,
+				B451A42629072E400036744B /* Launch screen */,
+				B451A42929072E950036744B /* VCs */,
+				B451A42729072E670036744B /* Core Data */,
+				B451A42529072E2A0036744B /* Table */,
 				B4F64CA528E0F28200AA8746 /* Main.storyboard */,
-				B4F64CAB28E0F28700AA8746 /* Assets.xcassets */,
+				B4DDC39A28E5F17F008BEF5E /* CustomViewCell.xib */,
 				B4F64CAD28E0F28700AA8746 /* LaunchScreen.storyboard */,
+				B4F64CAB28E0F28700AA8746 /* Assets.xcassets */,
 				B4F64CB028E0F28700AA8746 /* Info.plist */,
-				B4F64CA828E0F28200AA8746 /* diploma.xcdatamodeld */,
+				B451A41D2906D8F70036744B /* diploma.xcdatamodeld */,
 			);
 			path = diploma;
 			sourceTree = "<group>";
@@ -235,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F64CAF28E0F28700AA8746 /* LaunchScreen.storyboard in Resources */,
+				B4DDC39C28E5F17F008BEF5E /* CustomViewCell.xib in Resources */,
 				B4F64CAC28E0F28700AA8746 /* Assets.xcassets in Resources */,
 				B4F64CA728E0F28200AA8746 /* Main.storyboard in Resources */,
+				B451A4122905E3CE0036744B /* string-to-json-online.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +337,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B451A42B29072F350036744B /* CustomSegue.swift in Sources */,
 				B4F64CA428E0F28200AA8746 /* ViewController.swift in Sources */,
+				B4AE211928ECC7DD0053068E /* InfoViewController.swift in Sources */,
+				B451A41F2906D8F80036744B /* diploma.xcdatamodeld in Sources */,
+				B44CA6E228E5E0D900B26C3D /* TableViewController.swift in Sources */,
+				B43097152900188200C60EFD /* NotificationsViewController.swift in Sources */,
+				B451A41C2906D6F10036744B /* CoreData.swift in Sources */,
+				B44CA6DE28E5D23D00B26C3D /* HelloViewController.swift in Sources */,
 				B4F64CA028E0F28200AA8746 /* AppDelegate.swift in Sources */,
-				B4F64CAA28E0F28200AA8746 /* diploma.xcdatamodeld in Sources */,
+				B4DDC39B28E5F17F008BEF5E /* CustomViewCell.swift in Sources */,
 				B4F64CA228E0F28200AA8746 /* SceneDelegate.swift in Sources */,
+				B4DDC39E28E6301F008BEF5E /* Data.swift in Sources */,
+				B451A4142905E4DF0036744B /* InfoLoader.swift in Sources */,
+				B4AE211728ECC0020053068E /* DownloadViewController.swift in Sources */,
+				B451A4172906D2B20036744B /* CoreDataManager.swift in Sources */,
+				B44CA6E428E5E0E500B26C3D /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +531,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = diploma/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FestApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -470,6 +559,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = diploma/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FestApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -602,12 +692,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B4F64CA828E0F28200AA8746 /* diploma.xcdatamodeld */ = {
+		B451A41D2906D8F70036744B /* diploma.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B4F64CA928E0F28200AA8746 /* diploma.xcdatamodel */,
+				B451A41E2906D8F70036744B /* diploma.xcdatamodel */,
 			);
-			currentVersion = B4F64CA928E0F28200AA8746 /* diploma.xcdatamodel */;
+			currentVersion = B451A41E2906D8F70036744B /* diploma.xcdatamodel */;
 			path = diploma.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
